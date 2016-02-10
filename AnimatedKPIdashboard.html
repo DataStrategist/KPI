@@ -1,0 +1,196 @@
+<html><head></head><body><h1>Best Dashborde!!!1!</h1> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TableID1b5c25e91b64</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- Table generated in R 3.2.3 by googleVis 0.5.8 package -->
+<!-- Wed Feb 10 21:53:58 2016 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataTableID1b5c25e91b64 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "Item 1",
+6.2,
+8.36,
+"<img src=\"yellow.gif\">" 
+],
+[
+ "Item 2",
+2.41,
+8.48,
+"<img src=\"red.gif\">" 
+],
+[
+ "Item 3",
+0.83,
+7.24,
+"<img src=\"redFlashing.gif\">" 
+],
+[
+ "Item 4",
+9.9,
+5.85,
+"<img src=\"green.gif\">" 
+],
+[
+ "Item 5",
+0.36,
+6.88,
+"<img src=\"redFlashing.gif\">" 
+],
+[
+ "Item 6",
+8.01,
+3.89,
+"<img src=\"green.gif\">" 
+],
+[
+ "Item 7",
+0.7,
+3.86,
+"<img src=\"redFlashing.gif\">" 
+],
+[
+ "Item 8",
+4.43,
+2.15,
+"<img src=\"green.gif\">" 
+],
+[
+ "Item 9",
+6.77,
+5.12,
+"<img src=\"green.gif\">" 
+],
+[
+ "Item 10",
+3.07,
+6.26,
+"<img src=\"red.gif\">" 
+],
+[
+ "Item 11",
+9.14,
+1.83,
+"<img src=\"green.gif\">" 
+],
+[
+ "Item 12",
+2.53,
+4.49,
+"<img src=\"yellow.gif\">" 
+],
+[
+ "Item 13",
+2.18,
+9.73,
+"<img src=\"red.gif\">" 
+],
+[
+ "Item 14",
+1.95,
+4.99,
+"<img src=\"red.gif\">" 
+],
+[
+ "Item 15",
+7.91,
+9.54,
+"<img src=\"green.gif\">" 
+] 
+];
+data.addColumn('string','thing');
+data.addColumn('number','measure');
+data.addColumn('number','target');
+data.addColumn('string','graphic');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartTableID1b5c25e91b64() {
+var data = gvisDataTableID1b5c25e91b64();
+var options = {};
+options["allowHtml"] = true;
+
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID1b5c25e91b64')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID1b5c25e91b64);
+})();
+function displayChartTableID1b5c25e91b64() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID1b5c25e91b64"></script>
+ 
+<!-- divChart -->
+  
+<div id="TableID1b5c25e91b64" 
+  style="width: 500; height: automatic;">
+</div>
+ </body></html>
